@@ -1,0 +1,2 @@
+curl -X POST -vu clientapp:123456 http://localhost:8080/oauth/token -H "Accept: application/json" -d "password=spring&username=admin&grant_type=password&scope=read%20write&client_secret=123456&client_id=clientapp"
+curl http://localhost:8080/greeting -H "Authorization: Bearer ff16372e-38a7-4e29-88c2-1fb92897f558"
